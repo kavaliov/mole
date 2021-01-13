@@ -15,6 +15,7 @@
   margin: 0 auto;
   display: block;
   border-top: 0;
+  min-height: 360px;
 }
 
 .timelineWrapper .progressBar {
