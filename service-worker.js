@@ -1,0 +1,1 @@
+self.skipWaiting(),self.addEventListener("fetch",(e=>{e.request.url.match(/INT3D.*(?:png|jpe?g|gif|mp4|svg)/)&&e.respondWith(caches.match(e.request))}));
